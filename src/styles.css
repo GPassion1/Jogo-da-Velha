@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --gelo: #F3EEEA;
+  --creme: #EBE3D5;
+  --marrom-claro: #B0A695;
+  --marrom: #776B5D;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+  background: var(--gelo);
+}
+
+.titulo{
+  padding-bottom: 1em;
+}
+
+.titulo__txt{
+  font-size: 36px;
+  color: var(--marrom);
+}
+
+.square {
+  background: var(--gelo);
+  border: 1px solid var(--marrom);
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 50px;
+  height: 50px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 50px;
+  cursor: pointer;
+}
+
+.square:hover{
+  background: var(--creme);
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: var(--marrom);
+}
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15em;
+}
+
+.game-board{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.game-info {
+  margin-right: 2em;
+}
+
+.list{
+  color: var(--marrom);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.list button{
+  background: transparent;
+  font-size: 16px;
+  border: 1px solid var(--marrom);
+  color: var(--marrom);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.list button:hover{
+  background-color: var(--marrom);
+  color: var(--gelo);
+}
